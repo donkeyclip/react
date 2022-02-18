@@ -11,7 +11,7 @@ function App() {
         controls
         pointerevents
         initParams={{
-          color: "green",
+          color: "red",
         }}
       />
     </div>
