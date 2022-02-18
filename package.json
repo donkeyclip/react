@@ -8,21 +8,18 @@
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
   "files": [
-    "./lib/*.js",
-    "./lib/**/&.js",
-    "./lib/*.ts",
-    "./lib/**/&.ts"
+    "lib/*.js",
+    "lib/**/*.js",
+    "lib/*.ts",
+    "lib/**/*.ts"
   ],
   "scripts": {
     "build": "npm run build:esm && npm run build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs"
   },
-  "dependencies": {
-    "typescript": "^4.5.5",
-    "react": "^16.8.0"
-  },
   "devDependencies": {
+    "typescript": "^4.5.5",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
     "react": "^17.0.2",
