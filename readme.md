@@ -1,4 +1,4 @@
-#usage
+#Usage
 
 ```javascrip
 <Donkeyclip
@@ -9,5 +9,5 @@
     initParams={{
         color: "green",
     }}
-    />
+/>
 ```
